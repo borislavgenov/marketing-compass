@@ -46,17 +46,29 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <ChannelCard
               icon={<Tv size={28} />}
-              title="TV Advertising"
+              title="TV реклама"
               subtitle="Star Channel Group"
               gradient="var(--gradient-tv)"
               delay={0.4}
+              description="Нашата телевизионна кампания обхваща всички канали от групата Star Channel, достигайки до милиони зрители в цяла България. Рекламните ни спотове се излъчват в прайм тайм и ключови слотове."
+              stats={[
+                { label: "Канали", value: "5+" },
+                { label: "Обхват", value: "80%" },
+                { label: "Спотове/месец", value: "200+" }
+              ]}
             />
             <ChannelCard
               icon={<Radio size={28} />}
-              title="Radio Advertising"
-              subtitle="Fresh Group · 3rd Largest Network"
+              title="Радио реклама"
+              subtitle="Fresh Group · 3-та по големина мрежа"
               gradient="var(--gradient-radio)"
               delay={0.5}
+              description="Партнираме с Fresh Group - третата по големина радио мрежа в България. Рекламите ни се излъчват в ключови часове с максимална слушаемост."
+              stats={[
+                { label: "Радио станции", value: "8" },
+                { label: "Слушатели/ден", value: "500K+" },
+                { label: "Часови пояси", value: "3" }
+              ]}
             />
           </div>
         </motion.div>
@@ -80,6 +92,12 @@ const Index = () => {
               subtitle="Facebook & Instagram"
               gradient="var(--gradient-meta)"
               delay={0.6}
+              description="Активно присъствие в социалните мрежи на Meta. Използваме таргетирани реклами за достигане до точната аудитория с персонализирано съдържание."
+              stats={[
+                { label: "Последователи", value: "150K+" },
+                { label: "Engagement", value: "4.2%" },
+                { label: "Кампании/месец", value: "12" }
+              ]}
             />
             <ChannelCard
               icon={<Chrome size={28} />}
@@ -87,27 +105,51 @@ const Index = () => {
               subtitle="Search Ads & Display Network"
               gradient="var(--gradient-google)"
               delay={0.7}
+              description="Комплексна Google стратегия включваща Search Ads, Display Network и Google Shopping. Оптимизираме за максимална видимост и конверсии."
+              stats={[
+                { label: "Ключови думи", value: "500+" },
+                { label: "CTR", value: "3.8%" },
+                { label: "Качествен рейтинг", value: "8/10" }
+              ]}
             />
             <ChannelCard
               icon={<Youtube size={28} />}
               title="YouTube"
-              subtitle="Video Advertising"
+              subtitle="Видео реклама"
               gradient="var(--gradient-youtube)"
               delay={0.8}
+              description="Видео реклами в YouTube достигащи до българската аудитория. Използваме различни формати - от кратки bumper ads до по-дълги storytelling видеа."
+              stats={[
+                { label: "Гледания/месец", value: "1M+" },
+                { label: "View rate", value: "32%" },
+                { label: "Видео формати", value: "4" }
+              ]}
             />
             <ChannelCard
               icon={<Video size={28} />}
               title="TikTok"
-              subtitle="Short-Form Video Ads"
+              subtitle="Кратки видео реклами"
               gradient="var(--gradient-tiktok)"
               delay={0.9}
+              description="Присъствие в най-бързо растящата платформа. Създаваме engaging съдържание, което резонира с младата аудитория в България."
+              stats={[
+                { label: "Следящи", value: "45K+" },
+                { label: "Видеа/седмица", value: "5" },
+                { label: "Avg. views", value: "50K" }
+              ]}
             />
             <ChannelCard
               icon={<Mail size={28} />}
-              title="Email Marketing"
-              subtitle="Direct Communication"
+              title="Email маркетинг"
+              subtitle="Директна комуникация"
               gradient="var(--gradient-email)"
               delay={1.0}
+              description="Персонализирани email кампании за директна комуникация с нашите клиенти. Сегментирани списъци и автоматизирани последователности."
+              stats={[
+                { label: "Абонати", value: "80K+" },
+                { label: "Open rate", value: "28%" },
+                { label: "Кампании/месец", value: "8" }
+              ]}
             />
           </div>
         </motion.div>
@@ -126,10 +168,16 @@ const Index = () => {
           <div className="grid grid-cols-1 gap-6">
             <ChannelCard
               icon={<Pill size={28} />}
-              title="Pharmacy Network"
-              subtitle="In-store advertising across Bulgaria"
+              title="Аптечна мрежа"
+              subtitle="Реклама в аптеки из цяла България"
               gradient="var(--gradient-pharmacy)"
               delay={1.1}
+              description="Широко присъствие в аптечните вериги в България. Използваме различни формати - от брандирани дисплеи до промоционални материали на касите."
+              stats={[
+                { label: "Аптеки", value: "800+" },
+                { label: "Градове", value: "50+" },
+                { label: "Промо точки", value: "2000+" }
+              ]}
             />
           </div>
         </motion.div>
