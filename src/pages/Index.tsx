@@ -181,7 +181,7 @@ const Index = () => {
           className="text-center mt-16 pt-8 border-t border-border"
         >
           <p className="text-sm text-muted-foreground">
-            Multi-channel presence for maximum reach in Bulgaria
+            
           </p>
         </motion.div>
       </div>
