@@ -19,15 +19,15 @@ const Index = () => {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6"
           >
-            Marketing Strategy 2025
+            Маркетинг Стратегия 2026
           </motion.span>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-4 tracking-tight">
-            Marketing Channels
+            Рекламни Канали
           </h1>
           
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Our active advertising presence across Bulgaria
+            
           </p>
         </motion.div>
 
